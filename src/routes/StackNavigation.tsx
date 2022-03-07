@@ -5,7 +5,7 @@ import { SplashScreen, WelcomeScreen } from '../pages';
 const Stack = createNativeStackNavigator();
 const StackNavigation = () => {
     return (
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Splash" component={SplashScreen} />
             <Stack.Screen name="Welcome" component={WelcomeScreen} />
         </Stack.Navigator>
