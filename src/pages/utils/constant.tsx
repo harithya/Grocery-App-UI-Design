@@ -1,6 +1,6 @@
 const constant = {
     // Layout
-    container: 16
+    container: 24
 }
 
 export default constant;

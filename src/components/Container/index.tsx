@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     },
     background: {
         height: 500,
+        flex: 1,
         resizeMode: 'contain'
     }
 })

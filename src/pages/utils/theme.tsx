@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import color from "./color";
 import constant from "./constant";
 import font from "./font";
 
@@ -100,14 +101,8 @@ const theme = StyleSheet.create({
     textCenter: {
         textAlign: 'center'
     },
-    logo: {
-        height: 60,
-        width: 140,
-        resizeMode: 'contain',
-    },
-    actionSheet: {
-        borderRadius: 0,
-        height: 110
+    textWhite: {
+        color: color.white
     }
 })
 
