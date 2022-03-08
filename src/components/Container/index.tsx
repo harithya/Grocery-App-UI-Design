@@ -1,4 +1,4 @@
-import { ImageBackground, StatusBar, StyleProp, StyleSheet, Text, View, ViewStyle } from 'react-native'
+import { Dimensions, Image, ImageBackground, StatusBar, StyleProp, StyleSheet, Text, View, ViewStyle } from 'react-native'
 import React, { FC } from 'react'
 import { color } from '../../pages/utils'
 
@@ -11,9 +11,8 @@ const Container: FC<Props> = ({ children, style, statusBarColor }) => {
         <>
             <StatusBar barStyle={"light-content"} backgroundColor={statusBarColor ?? color.background} />
             <View style={[styles.container, style]}>
-                <ImageBackground source={require('../../assets/img/oval.png')} style={styles.background} >
-                    {children}
-                </ImageBackground>
+                <Image source={require('../../assets/img/oval.png')} style={styles.background} />
+                {children}
             </View>
         </>
     )
@@ -27,8 +26,12 @@ const styles = StyleSheet.create({
         backgroundColor: color.white
     },
     background: {
-        height: 500,
-        flex: 1,
-        resizeMode: 'contain'
+        top: -90,
+        right: 0,
+        left: 0,
+        height: Dimensions.get("screen").width + 10,
+        width: Dimensions.get("screen").width,
+        position: "absolute",
+        resizeMode: 'cover'
     }
 })

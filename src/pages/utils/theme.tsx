@@ -55,11 +55,23 @@ const theme = StyleSheet.create({
     marginBottom5: {
         marginBottom: 5
     },
+    marginRight10: {
+        marginRight: 10
+    },
+    marginRight5: {
+        marginRight: 5
+    },
+    marginLeft10: {
+        marginLeft: 10
+    },
+    marginLeft5: {
+        marginLeft: 5
+    },
     flex1: {
         flex: 1
     },
     input: {
-        marginBottom: 20
+        marginBottom: 18,
     },
     toBottom: {
         position: 'absolute',

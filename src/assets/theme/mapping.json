@@ -79,35 +79,51 @@
               },
               "size" :{
                 "tiny" :{
-                  "borderWidth" : 0,
                   "borderRadius": 10,
-                  "paddingVertical": 15,
                   "textFontWeight" :"normal"
                 },
                 "small" :{
-                  "borderWidth" : 0,
                   "borderRadius": 10,
-                  "paddingVertical": 15,
+                  "paddingVertical": 13,
                   "textFontWeight" :"normal"
                 },
                 "medium" :{
-                  "borderWidth" : 0,
                   "borderRadius": 10,
                   "paddingVertical": 15,
                   "textFontWeight" :"normal"
                 },
                 "large" :{
-                  "borderWidth" : 0,
                   "borderRadius": 10,
                   "paddingVertical": 15,
                   "textFontWeight" :"normal"
                 },
                 "giant" :{
-                  "borderWidth" : 0,
                   "borderRadius": 10,
                   "paddingVertical": 15,
                   "textFontWeight" :"normal"
                 } 
+              }
+            }
+          },
+          "outline": {
+            "variantGroups": {
+              "status" :{
+                "primary" :{
+                  "backgroundColor" :"white",
+                  "state": {
+                    "active": {
+                        "backgroundColor": "#F2F2F2"
+                    }
+                  }
+                },
+                "basic" :{
+                  "backgroundColor" :"white",
+                  "state": {
+                    "active": {
+                        "backgroundColor": "#F2F2F2"
+                    }
+                  }
+                }
               }
             }
           }
