@@ -1,14 +1,14 @@
 import { StyleSheet, View } from 'react-native'
 import React, { FC } from 'react'
-import { AuthLayout, Input } from '../../components'
-import { theme } from '../utils'
+import { AuthLayout, FormContent, Input } from '../../components'
+import { color, theme } from '../utils'
 import { Button, Text } from '@ui-kitten/components'
 import { PageProps } from '../types'
 
 const LoginScreen: FC<PageProps> = (props) => {
     return (
         <AuthLayout>
-            <View style={theme.container}>
+            <View style={styles.container}>
                 <Input
                     label='Email'
                     placeholder='yourmail@gmail.com'
@@ -32,6 +32,12 @@ const LoginScreen: FC<PageProps> = (props) => {
 }
 
 const styles = StyleSheet.create({
+    container: {
+        ...theme.container
+    },
+    containerActive: {
+        backgroundColor: color.background
+    },
     textForgot: {
         textAlign: "right",
         marginTop: -10,

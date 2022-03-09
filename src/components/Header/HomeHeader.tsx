@@ -1,42 +1,56 @@
-import { View, Text, StyleSheet } from 'react-native'
-import React from 'react'
+import { View, StyleSheet, ViewStyle } from 'react-native'
+import React, { FC } from 'react'
 import SearchBar from '../SearchBar'
 import { color, constant, theme } from '../../pages/utils'
 import { Icon } from '@ui-kitten/components'
-import Address from './Address'
+import { StyleProp } from 'react-native'
 
-const HomeHeader = () => {
+interface Props {
+    style?: StyleProp<ViewStyle>,
+    isActive?: boolean
+}
+const HomeHeader: FC<Props> = (props) => {
+    const getColorIcon = () => props.isActive ? color.gray3 : color.white
     return (
-        <View style={styles.container}>
+        <View style={[styles.container, props.style, props.isActive && styles.active]}>
             <View style={styles.header}>
-                <SearchBar />
+                <SearchBar style={props.isActive && styles.searchBarActive} />
                 <View style={styles.iconContainer}>
-                    <Icon name='email-outline' fill={color.white} style={[styles.icon, theme.marginRight10]} />
-                    <Icon name='bell-outline' fill={color.white} style={styles.icon} />
+                    <Icon name='email-outline' fill={getColorIcon()} style={[styles.icon, theme.marginRight10]} />
+                    <Icon name='bell-outline' fill={getColorIcon()} style={styles.icon} />
                 </View>
             </View>
-            <Address />
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-        paddingHorizontal: constant.container
+        paddingHorizontal: constant.container,
+        backgroundColor: color.background,
+        paddingTop: 10,
+        paddingBottom: 10,
     },
     header: {
         alignItems: "center",
-        marginTop: 14,
         flexDirection: "row",
     },
     icon: {
         height: 26,
         width: 26,
-        // marginTop: -14
     },
     iconContainer: {
         flexDirection: "row",
         alignItems: "center",
+    },
+    active: {
+        backgroundColor: color.white,
+        borderBottomWidth: 1,
+        borderBottomColor: color.border
+    },
+    searchBarActive: {
+        borderWidth: 1,
+        borderColor: color.border
     }
 })
 export default HomeHeader

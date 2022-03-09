@@ -1,0 +1,66 @@
+[
+    {
+        "name":"Bawang Putih Harga Kebon 200 g",
+        "price" :"3.000",
+        "unit":"200 gram",
+        "strike":"Rp. 10.700",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/ee05c66043db78efc651d281c0550cb3?tr=f-auto,w-700",
+        "description":"Bawang putih punya bentuk yang cukup langsing dan ramping daripada bawang merah, aromanya cukup khas dan wajib ada dalam bumbu masakan. Kulit bawang putih cukup gampang dikupas dan punya daging yang cukup padat."
+    },
+    {
+        "name":"Daun Bawang 250 g",
+        "price" :"8.400",
+        "unit":"250 gram",
+        "strike":"",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/75a91397e78764fdf11bf753cf597485?tr=f-auto,w-700",
+        "description":"Memang bentuknya engga seperti daun pada umumnya yah, tapi daun bawang cukup familiar di pasar Indonesia. Sering dijadiin bumbu pelengkap masakan, bikin daun bawang harus selalu ada di kulkas nih. Bentuknya memanjang, kadang ada yang bercabang dan tidak. Batang berwarna putih dan berdaging cukup tebal, sedangkan bagian daun yang berwarna hijau cukup tipis dengan tekstur seperti daun. Wanginya cukup khas dan paling sering dijadikan pelengkap dalam hidangan berkuah."
+    },
+    {
+        "name":"Sayurbox Tempe Value 500 gram",
+        "price" :"9.200",
+        "unit":"1 psc",
+        "strike":"",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/45dfc888e24ceaf5131ba51d46a8f5e0?tr=f-auto,w-700",
+        "description":"Tempe adalah salah satu sumber protein favorit di Indonesia. Harganya merakyat, tapi soal gizi dan manfaat jangan diragukan. Tempe adalah bentuk fermentasi dari kacang kedelai, jadi manfaatnya selain dari proses fermentasinya juga dari kacang kedelainya ituloh."
+    },
+    {
+        "name":"Sayurbox Tempe Value 500 gram",
+        "price" :"9.200",
+        "unit":"1 psc",
+        "strike":"",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/45dfc888e24ceaf5131ba51d46a8f5e0?tr=f-auto,w-700",
+        "description":"Tempe adalah salah satu sumber protein favorit di Indonesia. Harganya merakyat, tapi soal gizi dan manfaat jangan diragukan. Tempe adalah bentuk fermentasi dari kacang kedelai, jadi manfaatnya selain dari proses fermentasinya juga dari kacang kedelainya ituloh."
+    },
+    {
+        "name":"Daging Sop / Rawon Tidak Beku",
+        "price" :"32.900",
+        "unit":"1 psc",
+        "strike":"43.100",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/d1d382a68b174f13949f2a80d408adec?tr=f-auto,w-700",
+        "description":"Sayurbox Daging Sop / Rawonjadi solusi praktis untuk nyetok protein di rumah. Terlebih, kamu bisa dapat banyak manfaat daging segar, seperti: 1. Jaminan higienis, segar, dan halal. 2. Daging sapi ini bukanlah daging beku (not frozen). 3. Bisa langsung dimasak menjadi aneka makanan lezat. Ciri-ciri daging sapi segar: - Berbau khas daging sapi - Daging berwarna merah segar - Tekstur daging kenyal dan padat - Serat daging halus dan sedi"
+    },
+    {
+        "name":"Ayam Utuh Segar (tidak beku)",
+        "price" :"44.400",
+        "unit":"1 psc",
+        "strike":"",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/3ab60889d59220149fd0dbcf2d06385e?tr=f-auto,w-700",
+        "description":"Sayurbox ayam utuh 750 gram jadi solusi praktis untuk nyetok protein di rumah. Terlebih, kamu bisa dapat banyak manfaat daging segar, seperti: 1. Jaminan higienis, segar, dan halal. 2. Daging ayam ini bukanlah daging beku (frozen). 3. Bisa langsung diolah menjadi berbagai jenis masakan lezat. Ciri-ciri daging ayam segar: - Aromanya normal - Serat daging halus - Warna daging putih pucat - Sendi ayam elastis saat ditekuk"
+    },
+    {
+        "name":"ISE Egg Telur Premium Vitamin E 10 pcs",
+        "price" :"21.900",
+        "unit":"1 psc",
+        "strike":"43.600",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/0430561725d6d0371bbeda33339deadd?tr=f-auto,w-700",
+        "description":"Telur premium vitamin E adalah telur dengankandungan vitamin E mencapai 3x lipat dari telur biasa. Telur ini dirawat dan dihasilkan dari pakan terfermentasi khusus dan bebas antibiotik serta bakteri salmonella."
+    },
+    {
+        "name":"Selada Romaine Harga Kebon 250 g",
+        "price" :"5.000",
+        "unit":"250 gram",
+        "strike":"7.000",
+        "image":"https://ik.imagekit.io/dcjlghyytp1/6495564f29d12c1eadfa64de76496bad?tr=f-auto,w-700",
+        "description":"Selada Romaine tumbuh menjadi panjang dari daun yang kokoh, dengan tulang rusuk yang kokoh hampir mencapai ujung daun. Kultivar romaine juga sangat populer, terutama di Amerika Serikat."
+    }
+]

@@ -5,7 +5,8 @@ const color = {
     font: "#333333",
     gray3: "#828282",
     gray4: "#BDBDBD",
-    gray6: "#f7f9fc"
+    gray6: "#f7f9fc",
+    border: "rgb(228, 233, 242)"
 }
 
 export default color

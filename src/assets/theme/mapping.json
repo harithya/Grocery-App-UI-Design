@@ -74,7 +74,9 @@
             "variantGroups": {
               "status" :{
                 "basic" :{
-                  "textColor" :"#4CAD73"
+                  "textColor" :"#4CAD73",
+                  "backgroundColor":"white",
+                  "borderColor" :"white"
                 }
               },
               "size" :{

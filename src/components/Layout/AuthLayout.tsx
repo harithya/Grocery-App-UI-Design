@@ -1,32 +1,43 @@
-import { View, TouchableOpacity, StyleSheet, Image } from 'react-native'
+import { View, TouchableOpacity, StyleSheet, Image, ScrollView } from 'react-native'
 import React, { FC } from 'react'
 import Container from '../Container'
 import { Icon, Text } from '@ui-kitten/components'
-import { color, theme } from '../../pages/utils'
+import { color, constant, theme } from '../../pages/utils'
+import Background from '../Container/Background'
 
 const AuthLayout: FC = (props) => {
     return (
-        <Container>
-            <View style={theme.content}>
-                <TouchableOpacity>
-                    <Icon name='arrow-ios-back-outline' fill={color.white} style={styles.icon} />
-                </TouchableOpacity>
-            </View>
-            <View style={styles.container}>
-                <Text category={'h1'} status="control">Login</Text>
-                <Image source={require('../../assets/img/login.png')} style={styles.img} />
-            </View>
-            {props.children}
+        <Container disableBackground>
+            <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
+                <Background />
+                <View style={styles.back}>
+                    <TouchableOpacity>
+                        <Icon name='arrow-ios-back-outline' fill={color.white} style={styles.icon} />
+                    </TouchableOpacity>
+                </View>
+                <View style={styles.body}>
+                    <Text category={'h1'} status="control">Login</Text>
+                    <Image source={require('../../assets/img/login.png')} style={styles.img} />
+                </View>
+                {props.children}
+            </ScrollView>
         </Container>
     )
 }
 
 const styles = StyleSheet.create({
+    container: {
+        marginTop: -constant.container,
+        paddingBottom: constant.container
+    },
     icon: {
         height: 24,
-        width: 24
+        width: 24,
+        position: "absolute",
+        top: 20,
+        left: 0,
     },
-    container: {
+    body: {
         ...theme.content,
         flexDirection: "row",
         alignItems: "center",
@@ -36,6 +47,11 @@ const styles = StyleSheet.create({
         height: 317,
         width: 158,
         resizeMode: "contain"
+    },
+    back: {
+        ...theme.content,
+        position: "relative",
+        marginBottom: constant.container
     }
 })
 

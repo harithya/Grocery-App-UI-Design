@@ -14,7 +14,7 @@ const SplashScreen: FC<PageProps> = (props) => {
     return (
         <Container style={styles.container}>
             <View style={[theme.toCenter, theme.flex1]}>
-                <Logo height={50} style={styles.logo} />
+                <Logo height={50} />
             </View>
         </Container>
     )
@@ -23,9 +23,6 @@ const SplashScreen: FC<PageProps> = (props) => {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: color.primary
-    },
-    logo: {
-        marginTop: 200
     }
 })
 
